@@ -4,7 +4,9 @@ import bannerImage from "../assets/pages_banner/about_us_page_banner.jpg";
 import experienceLogo from "../assets/25-Years-Logo.png";
 import HeartDesignDivider from "../components/HeartDesignDivider";
 import ImageSlider from "../components/ImageSlider";
+import useScrollToTop from "../Hooks/useScrollToTop";
 export const AboutUs = () => {
+  useScrollToTop();
   return (
     <div className="mt-[75px]">
       <Banner

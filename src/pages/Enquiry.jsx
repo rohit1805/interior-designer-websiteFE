@@ -14,7 +14,7 @@ import { VscCallOutgoing } from "react-icons/vsc";
 import { AiOutlineMail } from "react-icons/ai";
 
 export const Enquiry = () => {
-  // useScrollToTop();
+  useScrollToTop();
   const reasonToChoose = [
     {
       icon: icon1,
