@@ -24,9 +24,9 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/designPhilosophy" element={<DesignPhilosophy />} />
           <Route path="/kitchen" element={<Kitchen />} />
-          <Route path="/wardrobe" element={<Wardrobe />} />
+          {/* <Route path="/wardrobe" element={<Wardrobe />} />
           <Route path="/bed" element={<Beds />} />
-          <Route path="/tvunit" element={<TVUnit />} />
+          <Route path="/tvunit" element={<TVUnit />} /> */}
           <Route path="/otherFurniture" element={<OtherFurniture />} />
           <Route
             path="/architectInteriorDesigner"

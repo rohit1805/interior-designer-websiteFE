@@ -23,8 +23,8 @@ export default function ExploreProductSection() {
       </div>
       <div className="flex flex-col gap-5 md:flex-row ">
         {/* first four categories */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 md:col-span-4 gap-5 mx-5 md:mx-auto md:ml-14 justify-center md:w-8/12">
-          <Link to={"/bed"}>
+        <div className="grid grid-cols-1  gap-5 mx-5 md:mx-auto md:ml-14 justify-center md:w-8/12">
+          {/* <Link to={"/bed"}>
             <div className="relative overflow-hidden">
               <img
                 src={prodct_1}
@@ -37,8 +37,9 @@ export default function ExploreProductSection() {
                 </h1>
               </div>
             </div>
-          </Link>
-          <Link to={"/wardrobe"}>
+          </Link> */}
+
+          {/* <Link to={"/wardrobe"}>
             <div className="relative overflow-hidden">
               <img
                 src={prodct_2}
@@ -51,8 +52,9 @@ export default function ExploreProductSection() {
                 </h1>
               </div>
             </div>
-          </Link>
-          <Link to={"/tvunit"}>
+          </Link> */}
+
+          {/* <Link to={"/tvunit"}>
             <div className="relative overflow-hidden">
               <img
                 src={prodct_3}
@@ -65,7 +67,8 @@ export default function ExploreProductSection() {
                 </h1>
               </div>
             </div>
-          </Link>
+          </Link> */}
+
           <Link to={"/kitchen"}>
             <div className="relative overflow-hidden">
               <img

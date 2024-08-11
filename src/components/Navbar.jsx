@@ -25,9 +25,9 @@ export default function Navbar() {
 
   const our_products = [
     { product: "Kitchen", to: "/kitchen" },
-    { product: "Wardrobe", to: "/wardrobe" },
-    { product: "Beds", to: "/bed" },
-    { product: "TV Units", to: "/tvunit" },
+    // { product: "Wardrobe", to: "/wardrobe" },
+    // { product: "Beds", to: "/bed" },
+    // { product: "TV Units", to: "/tvunit" },
     { product: "Other Furniture", to: "/otherFurniture" },
   ];
 
